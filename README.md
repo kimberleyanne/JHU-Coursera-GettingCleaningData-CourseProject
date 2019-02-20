@@ -4,7 +4,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain (Reyes-Ortiz *et al.*, 2012).
 
-## Task Objectives:
+## Task Objectives
 The script run_analysis.R contains code that accomplishes the following five tasks:
 1. Merges the training and test data sets into a single data set.
 2. Extracts all measurements of a mean or standard deviation (std). 
@@ -12,7 +12,7 @@ The script run_analysis.R contains code that accomplishes the following five tas
 4. Adds descriptive variable names to the data set.
 5. Creates a second tidy data set wiht the average of each mean and standard deviation measurement across each activity and subject.
 
-## Process:
+## Process
 This script accomplishes these tasks in the following way:
 1. Read in all training and test data sets including measurement (X_test.txt; X_train.txt), label (y_test.txt; y_train.txt), and subject id (subject_test.txt; subject_train.txt) files.
 2. Read in activity lables (activity_labels.txt) and features (features.txt).
